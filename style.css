@@ -1,0 +1,128 @@
+/* Navigation Section */
+nav{
+    background-color: black;
+    padding:15px;
+}
+
+nav a{
+    color: white;
+    text-decoration:none;
+    margin-right:20px;
+}
+/* Whole Webpage */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+/* 
+home Section */
+/* .dot means class and # hashtag means ID */
+.home-title{  
+    color:palevioletred;
+}
+/* About me section */
+.college{
+    color:crimson;
+}
+/* Form Section here */
+.form-section{
+    background-color: cadetblue;
+}
+
+.learner{
+    color:crimson;
+}
+/* to make it look clean and seperate */
+section{
+    width: 90%;
+    margin:20px auto;
+    padding:20px;
+    border:2px solid black;
+}
+section{
+    border: 3px solid black;
+}
+ h2{
+    color:darkcyan
+ }
+/* paragraph */
+ p{
+    font-size:18px;
+    line-height: 1.8;
+ }
+
+ /* for Skills Section */
+ /* *astrik symbol is known as universal selector sabai element html ko */
+ *{
+    box-sizing: border-box;
+ }
+ body{
+    margin:0;
+    background-color: rgb(204, 220, 220);
+    font-family: 'Times New Roman', Times, serif;
+ }
+ section{
+    width:90%;
+    margin: 20px auto;
+    padding: 20px;
+    border:2px solid black;
+ }
+ h2{
+    color: brown;
+    font-size: 30px;
+
+ }
+ h4{
+    margin-bottom: 10px;
+ }
+ p{
+    line-height: 1.5;
+ }
+ /* form section lai */
+ .form-section{
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color:rgb(122, 92, 53) ;
+    border: 2px solid black;
+    text-align: center;
+ }
+ /* 20px means top to bottom and auto means automatically right and left divided */
+
+ /* favourite section */
+ .favourite-section{
+    width:80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: darkkhaki;
+    border: 2px solid black;
+ }
+.favourite-section ol,
+.favourite-section ul,
+.favourite-section dl {
+    width: fit-content;
+    margin: 20px auto;
+    text-align: left;
+}
+ .form-section{
+    width:80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(133, 163, 201);
+    border: 2px solid black;
+    text-align: center;
+ }
+ /* country section now */
+.country-section{
+    width:80%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* for footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background-color: rgb(86, 154, 169);
+}
