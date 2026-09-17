@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="reg.css">  
+        <!-- this means linking css file with html -->
+    </head>
+    <body>
+        <main>
+            <div class="form-container">
+        <h1> 🎓College Admission Form</h1>
+        <p class="subtitle">Please fill in your details carefully</p>
+        <form>
+            <div class="form-group">
+        <label for="fullname"> Full Name📛:</label>
+        <input type="text" id="fullname" placeholder="Enter your Full Name">
+        <br>
+        <label for="Email">Email📩:</label>
+        <input type="text" id="Email" placeholder="Enter your Email ID">
+        <br>
+        <label for="phone"> Phone Number☎️:</label>
+        <input type="tel" id="Phone" placeholder="Enter your Phone number">
+        <br>
+        <label for="password">password🔑:</label>
+        <input type="password" id="password" placeholder="your password">
+        <!-- input type password cause user pw will be like AShma@123 and it will apear like........... -->
+         <br>
+         <label for="confirm password">confirm password✅:</label>
+         <input type="password" id="confirm password" placeholder="confirm your password">
+         <br>
+         <label for="dob">Date of Birth📅:</label>
+         <input type="date" id="dob">
+         <!-- gender section -->
+        <section>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male♂️
+        <input type="radio" name="gender" value="Female">Female♀️
+        <input type="checkbox" name="gender" value="Other">Other🫡
+        </section>
+        </div>
+        <!-- name=gender sabaima same kina vane user le yes bata choose garne ho ni tw user tw euta xa this ui is for me ! -->
+         <br>
+         <!-- Country Sectio -->
+          <div class="form-group"></div>
+         <section>
+            <label for="Country">Country🏡:</label>
+            <select id="Country">
+                <option value="">select Your Country🌻</option> 
+                <option value="nepal">Nepal 🇳🇵</option>
+                <option value="nepal">Switzerland 🇨🇭</option>
+                <option value="nepal">Japan 🇯🇵</option>
+                <option value="nepal">USA 🇺🇸</option>
+                <option value="nepal">Canada 🇨🇦</option>
+                <option value="nepal">Finland 🇫🇮</option>
+            </select>
+         </section>
+         </div>
+         <br>
+         <!-- Terms and Condition -->
+          <div>
+          <input type="checkbox" id="terms">
+          <label for="terms">I agree to the Terms and Condition!</label>
+          <button type="submit">Register!®️</button>
+          </div>
+ </main>
+</form>
+ </div>
+    </body>
+</html>
